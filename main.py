@@ -1,4 +1,3 @@
-
 from utils import *
 import argparse
 
@@ -37,7 +36,7 @@ def main(args):
         draw_graph(x,x_set,y_set,mean, np.sqrt(var))
 
 
-    # Training a Gaussian MLP with NLL & Adversial Training
+    # Training a Gaussian MLP with NLL & Adversarial Training
     # TODO:Draw Fig1.3
     elif args.fig == 3:
 
